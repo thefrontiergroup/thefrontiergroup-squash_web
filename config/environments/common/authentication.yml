@@ -1,3 +1,10 @@
 ---
-strategy: password
-registration_enabled: true
+strategy: ldap
+ldap:
+  host: ironhide.thefrontiergroup.net.au
+  port: 389
+  ssl: false
+  tree_base: ou=people,dc=thefrontiergroup,dc=com,dc=au
+  search_key: uid
+  bind_dn:
+  bind_password:

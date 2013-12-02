@@ -23,4 +23,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Squash::Application.config.secret_key_base = '_SECRET_'
+Squash::Application.config.secret_key_base = '53ee3c630ff247547e9b4f5e6dd54165'
