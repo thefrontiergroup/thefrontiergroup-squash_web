@@ -6,5 +6,5 @@ ldap:
   ssl: false
   tree_base: ou=people,dc=thefrontiergroup,dc=com,dc=au
   search_key: uid
-  bind_dn:
-  bind_password:
+  bind_dn: 
+  bind_password: 

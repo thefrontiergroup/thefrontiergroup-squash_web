@@ -3,8 +3,8 @@ development:
   adapter: postgresql
   encoding: utf8
   host: localhost
-  username: develop
-  password: develop
+  username: develop 
+  password: develop 
   database: squash_development
 test:
   adapter: postgresql
